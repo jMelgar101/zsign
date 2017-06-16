@@ -13,7 +13,8 @@
   "keywords": [
     "sign",
     "verify",
-    "token"
+    "signing",
+    "signature"
   ],
   "author": "Julius Vincent Melgar",
   "license": "MIT",
