@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jMelgar101/zsign#readme",
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "crypto-js": "^3.1.9-1",
+    "lodash": "^4.17.4"
   }
 }

@@ -1,4 +1,15 @@
 var cryptojs = require("crypto-js");
+var _ = require("lodash");
+
+function JSONPolicy(ops, vp) {
+	if (!_.isNil(ops)) {
+		_.merge(operations, ops);
+	}
+
+	if (!_.isNil(vp)) {
+		varPrefix = vp;
+	}
+}
 
 function verify(payload, secret, signature) {
 	const toBeHashed = payload + ";" + secret;
