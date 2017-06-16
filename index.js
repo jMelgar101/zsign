@@ -1,7 +1,7 @@
 var cryptojs = require("crypto-js");
 var _ = require("lodash");
 
-function JSONPolicy(ops, vp) {
+function ZSign(ops, vp) {
 	if (!_.isNil(ops)) {
 		_.merge(operations, ops);
 	}
