@@ -1,6 +1,6 @@
 {
   "name": "zsign",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sign and verify data",
   "main": "app.js",
   "scripts": {
