@@ -1,0 +1,27 @@
+{
+  "name": "zsign",
+  "version": "0.0.1",
+  "description": "Sign and verify data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jMelgar101/zsign.git"
+  },
+  "keywords": [
+    "sign",
+    "verify",
+    "token"
+  ],
+  "author": "Julius Vincent Melgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jMelgar101/zsign/issues"
+  },
+  "homepage": "https://github.com/jMelgar101/zsign#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
