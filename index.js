@@ -27,7 +27,7 @@ function sign(payload, secret) {
 	const signature = cryptojs.SHA1(toBeHashed).toString();
 	const result = {
 		payload: payload,
-		signature: signature
+		__signature__: signature
 	};
 
 	return result;
